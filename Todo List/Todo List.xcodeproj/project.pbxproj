@@ -17,6 +17,7 @@
 		1E6EA3F22622933F00EF12DE /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E6EA3EF2622933F00EF12DE /* sound-tap.mp3 */; };
 		1E6EA3F32622933F00EF12DE /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E6EA3F02622933F00EF12DE /* sound-ding.mp3 */; };
 		1E6EA4042622A53D00EF12DE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4032622A53D00EF12DE /* Constant.swift */; };
+		1E6EA4072622BBA100EF12DE /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4062622BBA100EF12DE /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1E6EA3EF2622933F00EF12DE /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		1E6EA3F02622933F00EF12DE /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		1E6EA4032622A53D00EF12DE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1E6EA4062622BBA100EF12DE /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		1E6EA3F82622936800EF12DE /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1E6EA4062622BBA100EF12DE /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			files = (
 				1E6EA3E32622929800EF12DE /* Persistence.swift in Sources */,
 				1E6EA3DC2622929800EF12DE /* ContentView.swift in Sources */,
+				1E6EA4072622BBA100EF12DE /* HideKeyboardExtension.swift in Sources */,
 				1E6EA4042622A53D00EF12DE /* Constant.swift in Sources */,
 				1E6EA3DA2622929800EF12DE /* Todo_ListApp.swift in Sources */,
 				1E6EA3E62622929800EF12DE /* Todo_List.xcdatamodeld in Sources */,
