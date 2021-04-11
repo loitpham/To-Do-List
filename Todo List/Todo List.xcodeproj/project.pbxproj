@@ -19,6 +19,7 @@
 		1E6EA4042622A53D00EF12DE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4032622A53D00EF12DE /* Constant.swift */; };
 		1E6EA4072622BBA100EF12DE /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4062622BBA100EF12DE /* HideKeyboardExtension.swift */; };
 		1E6EA40A2622C23200EF12DE /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */; };
+		1E6EA40D2622C42F00EF12DE /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA40C2622C42F00EF12DE /* NewTaskItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1E6EA4032622A53D00EF12DE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		1E6EA4062622BBA100EF12DE /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		1E6EA40C2622C42F00EF12DE /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				1E6EA3DB2622929800EF12DE /* ContentView.swift */,
 				1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */,
+				1E6EA40C2622C42F00EF12DE /* NewTaskItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				1E6EA4042622A53D00EF12DE /* Constant.swift in Sources */,
 				1E6EA3DA2622929800EF12DE /* Todo_ListApp.swift in Sources */,
 				1E6EA3E62622929800EF12DE /* Todo_List.xcdatamodeld in Sources */,
+				1E6EA40D2622C42F00EF12DE /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
