@@ -20,6 +20,7 @@
 		1E6EA4072622BBA100EF12DE /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4062622BBA100EF12DE /* HideKeyboardExtension.swift */; };
 		1E6EA40A2622C23200EF12DE /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */; };
 		1E6EA40D2622C42F00EF12DE /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA40C2622C42F00EF12DE /* NewTaskItemView.swift */; };
+		1E6EA4102622CC4C00EF12DE /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA40F2622CC4C00EF12DE /* BlankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1E6EA4062622BBA100EF12DE /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		1E6EA40C2622C42F00EF12DE /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		1E6EA40F2622CC4C00EF12DE /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				1E6EA3DB2622929800EF12DE /* ContentView.swift */,
 				1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */,
 				1E6EA40C2622C42F00EF12DE /* NewTaskItemView.swift */,
+				1E6EA40F2622CC4C00EF12DE /* BlankView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				1E6EA40A2622C23200EF12DE /* BackgroundImageView.swift in Sources */,
 				1E6EA3DC2622929800EF12DE /* ContentView.swift in Sources */,
 				1E6EA4072622BBA100EF12DE /* HideKeyboardExtension.swift in Sources */,
+				1E6EA4102622CC4C00EF12DE /* BlankView.swift in Sources */,
 				1E6EA4042622A53D00EF12DE /* Constant.swift in Sources */,
 				1E6EA3DA2622929800EF12DE /* Todo_ListApp.swift in Sources */,
 				1E6EA3E62622929800EF12DE /* Todo_List.xcdatamodeld in Sources */,
