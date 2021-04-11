@@ -18,6 +18,7 @@
 		1E6EA3F32622933F00EF12DE /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E6EA3F02622933F00EF12DE /* sound-ding.mp3 */; };
 		1E6EA4042622A53D00EF12DE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4032622A53D00EF12DE /* Constant.swift */; };
 		1E6EA4072622BBA100EF12DE /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4062622BBA100EF12DE /* HideKeyboardExtension.swift */; };
+		1E6EA40A2622C23200EF12DE /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1E6EA3F02622933F00EF12DE /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		1E6EA4032622A53D00EF12DE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		1E6EA4062622BBA100EF12DE /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				1E6EA3DB2622929800EF12DE /* ContentView.swift */,
+				1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E6EA3E32622929800EF12DE /* Persistence.swift in Sources */,
+				1E6EA40A2622C23200EF12DE /* BackgroundImageView.swift in Sources */,
 				1E6EA3DC2622929800EF12DE /* ContentView.swift in Sources */,
 				1E6EA4072622BBA100EF12DE /* HideKeyboardExtension.swift in Sources */,
 				1E6EA4042622A53D00EF12DE /* Constant.swift in Sources */,
