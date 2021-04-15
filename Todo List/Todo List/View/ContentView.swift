@@ -101,21 +101,13 @@ struct ContentView: View {
                         LinearGradient(gradient: Gradient(colors: [Color.pink, Color.blue]), startPoint: .leading, endPoint: .trailing)
                             .clipShape(Capsule())
                     )
-                    .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 8, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 4.0)
+                    .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 8, x: 0.0, y: 4.0)
                     
                     // MARK: - TASKS
                     
                     List {
                         ForEach(items) { item in
-                            VStack(alignment: .leading) {
-                                Text(item.task ?? "")
-                                    .font(.headline)
-                                    .fontWeight(.bold)
-                                
-                                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                                    .font(.footnote)
-                                    .foregroundColor(.gray)
-                            } //: VSTACK
+                            ListRowItemView(item: item)
                         } //: LOOP
                         .onDelete(perform: deleteItems)
                     } //: LIST

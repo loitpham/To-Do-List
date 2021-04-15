@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2F03322627EA41005C8C6E /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F03312627EA41005C8C6E /* ListRowItemView.swift */; };
+		1E2F03352627EC6F005C8C6E /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F03342627EC6F005C8C6E /* CheckboxStyle.swift */; };
 		1E6EA3DA2622929800EF12DE /* Todo_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA3D92622929800EF12DE /* Todo_ListApp.swift */; };
 		1E6EA3DC2622929800EF12DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6EA3DB2622929800EF12DE /* ContentView.swift */; };
 		1E6EA3DE2622929800EF12DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6EA3DD2622929800EF12DE /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2F03312627EA41005C8C6E /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		1E2F03342627EC6F005C8C6E /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 		1E6EA3D62622929800EF12DE /* Todo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6EA3D92622929800EF12DE /* Todo_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ListApp.swift; sourceTree = "<group>"; };
 		1E6EA3DB2622929800EF12DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 				1E6EA4092622C23200EF12DE /* BackgroundImageView.swift */,
 				1E6EA40C2622C42F00EF12DE /* NewTaskItemView.swift */,
 				1E6EA40F2622CC4C00EF12DE /* BlankView.swift */,
+				1E2F03312627EA41005C8C6E /* ListRowItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 		1E6EA3FA2622938000EF12DE /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				1E2F03342627EC6F005C8C6E /* CheckboxStyle.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -225,8 +231,10 @@
 				1E6EA4072622BBA100EF12DE /* HideKeyboardExtension.swift in Sources */,
 				1E6EA4102622CC4C00EF12DE /* BlankView.swift in Sources */,
 				1E6EA4042622A53D00EF12DE /* Constant.swift in Sources */,
+				1E2F03322627EA41005C8C6E /* ListRowItemView.swift in Sources */,
 				1E6EA3DA2622929800EF12DE /* Todo_ListApp.swift in Sources */,
 				1E6EA3E62622929800EF12DE /* Todo_List.xcdatamodeld in Sources */,
+				1E2F03352627EC6F005C8C6E /* CheckboxStyle.swift in Sources */,
 				1E6EA40D2622C42F00EF12DE /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
