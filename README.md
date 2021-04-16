@@ -8,14 +8,14 @@ A widget extension of the app is also included to briefly capture current status
 
 
 
-<img src="Screenshots/HomeView.png" alt="HomeView" style="zoom:25%;" />
+<img src="Screenshots/HomeView.png" alt="HomeView" width="200" />
 
-<img src="Screenshots/NewTaskView.png" alt="NewTaskView" style="zoom:25%;" />
+<img src="Screenshots/NewTaskView.png" alt="NewTaskView" width="200" />
 
-<img src="Screenshots/NewlyAddedItem.png" alt="NewlyAddedItem" style="zoom:25%;" />
+<img src="Screenshots/NewlyAddedItem.png" alt="NewlyAddedItem" width="200" />
 
-<img src="Screenshots/DarkMode.png" alt="DarkMode" style="zoom:25%;" />
+<img src="Screenshots/DarkMode.png" alt="DarkMode" width="200" />
 
-<img src="Screenshots/CompletedItem.png" alt="CompletedItem" style="zoom:25%;" />
+<img src="Screenshots/CompletedItem.png" alt="CompletedItem" width="200" />
 
-<img src="Screenshots/DeleteItem.png" alt="DeleteItem" style="zoom:25%;" />
+<img src="Screenshots/DeleteItem.png" alt="DeleteItem" width="200" />
